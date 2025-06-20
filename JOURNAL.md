@@ -16,11 +16,11 @@ So when I initially started this project, I looked into different types of robot
 - Develop a radio transmitter that allows me to remote control the hexapod.
 - Develop inverse kinematic formulas to create walking gaits.
 
-## Frame Construction 2/8/25 - 2/15/25 (9 Hours)
+## Frame Construction 2/8/25 - 2/15/25 (12 Hours)
 
 The first thing that I needed to do when designing the hexapod was the frame. As much as I didn't like it, starting off with the frame and the leg would give me a good idea on how big I wanted the hexapod to be, it would also give me an idea of how I was going to attach the servos to the robot. I decided to split up the frame of the hexapod into 4 seperate parts: the hexapod cover, the top frame, the body, and the bottom frame. I also made the servo attachment that I will be using to attach the actual servo to these projects. Throughout the next few paragraphs I will go much more into detail about each part that I constructed. However, I would construct the top cover at a later time so it will be in a later segment.
 
-### Servo Cage (1 Hour)
+### Servo Cage (2 Hour)
 
 So the first thing that I modeled was the servo attachment that I would use to basically glue the servo to the other parts of the hexapod. I decided to name it a servo cage due to it being trapped, and effectionaly attached what looks like cage bars on the attachment for asthetic reasons.
 
@@ -37,7 +37,7 @@ The bearing axle wa also a preliminary thing to do as I wanted to reduce the amo
 
 ![Screenshot 2025-06-20 010154](https://github.com/user-attachments/assets/c997701f-9529-47eb-b18e-9c8ae5b2b867)
 
-### Body (5 Hours)
+### Body (6 Hours)
 
 For the body, I needed to make sure that certian values were parameterized. Later on when I am programming the inverse kinematic, I will need to make sure that these values are exact, otherwise I'm fried. I decided to make a irreugular octogonal shape for the hexapod. While this may seem very odd, there is a good reason for this. With a normal hexagon, there isn't really a way to only edit one dimension due to it being a regular polygon. After this deducment I decided to work on the actual sketch. I decided to make the height longer than the width due to more room for the legs to extend. This is the sketch that I created:
 
@@ -55,7 +55,7 @@ Final thing about the body, I ended up putting the servo cages with the horn nea
 
 ![Screenshot 2025-06-19 110539](https://github.com/user-attachments/assets/c03f4a92-1c58-4614-91ee-d4ce90ef829b)
 
-### Top Frame (1.5 Hours)
+### Top Frame (2 Hours)
 
 For the next part of the frame, I decided to start working on the top fraame, or the main attachment to the body. Since I already had an Arduino Mega at the time, I knew that I wanted to make a little indent for it. Besides that, this would be a very simple task as all I needed to do was to basically make a little sandwich with the previous . However the indent turned out to be the hardest part as I had trouble finding the arduino model. I might just be dumb but how hard it is to find a model of a arduino mega, it also doesn't help that the arduino webside doesnt have it. Either way after this was done it was simple from here, this was the arduino model I ended up with:
 
@@ -67,9 +67,10 @@ This was by far the most simple parts of the frame construction. Later on in ass
 
 ![Screenshot 2025-06-19 191914](https://github.com/user-attachments/assets/5934e196-cf33-4543-887f-87a8b8871c2d)
 
-### Top Cover (2.5 Hours)
+### Top Cover (3 Hours)
 
 This was the final piece for the frame, and this is personally my favorite. The goal of this part was to nicely attach to the top frame while also being a kind of shell for the arduino. Also I wanted to be able to be able to put all the servo wires neatly. I decided to make a outer layer with the same octogonal dimensions of the frame. After this I had trouble designing the slanted part due to it basically being two plates that had different y axises and were connected by slants. After some digging I realized I needed to make a inner layer to be able to loft the outer and inner plates. After that it was simple from there. I thought I would have trouble making cutouts of the slanted pieces but I realized that it worked like any normal face. Also I added a honycomb pattern to the top part since it looks cool and I could eventually attach something to it. This is a picture of the final model:
 
 ![Screenshot 2025-06-19 194405](https://github.com/user-attachments/assets/1280b52e-fcf5-454c-abec-c04b2543c94d)
 
+## Leg Construction 
