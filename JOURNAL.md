@@ -5,7 +5,7 @@ description: "6-Legged RC-Controlled Robot"
 created_at: "2025-3-01"
 ---
 # Arduino Hexapod Journal
-Total Hours Logged: 53 hrs
+Total Hours Logged: 78 hrs
 
 ## Initial Reaserch 3/01/25 - 3/04/25 (5 Hours)
 
@@ -112,6 +112,28 @@ This took by far, by far, the most amount of time and was easily the most annoyi
 
 ## Assembely 3/26/25 (4 Hours)
 
-So, turns out when I was origionally doing this (since cadding was a new experience), I had everything in one janky file. I realized in order to get a better model of this hexapod and attach all the legs I needed to split every component up and then put them back together. Needless to say but this took a good amount of time to put together, but it looks absolutely amazing and I am super proud of this model. This is the final model in fusion 360.
+So, turns out when I was origionally doing this (since cadding was a new experience), I had everything in one janky file. I realized in order to get a better model of this hexapod and attach all the legs I needed to split every component up and then put them back together. Needless to say but this took a good amount of time to put together, but it looks absolutely amazing and I am super proud of this model. This is the final model in fusion 360:
 
+![Hexapod](https://github.com/user-attachments/assets/4e7dd108-573c-4d4c-a193-5c7829b00de1)
 
+## Hexapod PCB Design V1 (25 Hours)
+
+### Initial Reaserch 3/30/25 - 3/31/25 (4 Hours)
+For the PCB of the hexapod, I originally wanted to make a shield for an Arduino Mega. This would allow me to just shlap it on the arduino mega and somewhat be done with it. After doing some reaserch, the only electronics I wanted was the communication NRF, and a stable power supply. However in the future I want to make the PCB an actual pcb. But lets see how that goes.
+
+### Schematic Design 4/7/25 - 4/11/25 (9 Hours)
+
+Throughout this week I decided to start and finish the schematic. This was also my first time doing schematics so it took time learning KiCad in general. Once I got a hang of it, I was chilling. Here is a picture o the schematic that I came up with and I will just write some more notes about spesific things:
+
+![Screenshot 2025-06-20 205454](https://github.com/user-attachments/assets/1ab15c89-3e00-4f12-ae7b-2f790ca99c39)
+
+- The reason for all the pins is that there isn't a shield pin modelfor the arduino so I sliced it into bits.
+- The NRF2401 needs a capacitor for a stable power supply.
+- The power supply also has 2 capacitors for a overall more stable power supply.
+- The GPIO blocks were going to be used for stuff like other servos and LEDs.
+
+### PCB Routing (12 Hours)
+
+As this was my first time routing, this was a humbling experience to say the least. Due to me at the time wanting a lot of general purpose blocks and me originally using 1 layer (pretty dumb ik ik), it took a bit to get it right. But as soon as all the difficult cases were done it was good from there, especially as soon as I knew what I was doing. This was the final routing of the shield:
+
+![Screenshot 2025-06-20 210252](https://github.com/user-attachments/assets/0f466896-050e-4a4c-86e3-953e8f7525b2)
