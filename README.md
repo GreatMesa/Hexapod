@@ -23,7 +23,7 @@ I plan to use Elegoo Plan PLUS to print out all the custom parts of the hexapod.
 
 | Item Name | Price (USD) | Quantity | Total Price (USD) | Purchase Link |
 |-----------|-------------|----------|--------------------|----------------|
-| Dsservo 35KG DS3235 Metal Gear Digital Servo | $8.37 | 18 | $150.66 | [Alibaba](https://www.alibaba.com/product-detail/Dsservo-Waterproof-Servo-High-Torque-35KG_62204650069.html) |
+| Dsservo 35KG DS3235 Metal Gear Digital Servo | $8.37 | 20 | $167.67 | [Alibaba](https://www.alibaba.com/product-detail/Dsservo-Waterproof-Servo-High-Torque-35KG_62204650069.html) |
 | Chanzon Header Strip for Arduino GPIO 40-pin x 20pcs Female/Male Pins | $9.99 | 1 | $9.99 | [Amazon](https://www.amazon.com/gp/product/B09MY5MJ36) |
 | HiLetgo 4pcs NRF24L01+ | $7.89 | 1 | $7.89 | [Amazon](https://www.amazon.com/gp/product/B00LX47OCY) |
 | 1600 Pcs M3 Screw Kit, M3 Button Head and Socket Head Screws | $15.00 | 1 | $15.00 | [Amazon](https://www.amazon.com/Takytao-Button-Screws-Machine-Assortment/dp/B0D3TRRKSG) |
@@ -39,4 +39,4 @@ I plan to use Elegoo Plan PLUS to print out all the custom parts of the hexapod.
 | HiLetgo ILI9341 2.8" SPI TFT LCD Display Touch Panel 240X320 | $16.39 | 1 | $16.39 | [Amazon](https://www.amazon.com/HiLetgo-240X320-Resolution-Display-ILI9341/dp/B073R7BH1B) |
 | HiLetgo 10pcs 4 Channels IIC I2C Logic Level Converter | $7.49 | 1 | $7.49 | [Amazon](https://www.amazon.com/HiLetgo-Channels-Converter-Bi-Directional-3-3V-5V/dp/B07F7W91LC) |
 
-**Total Amount: $330.33**
+**Total Amount: $347.34**
