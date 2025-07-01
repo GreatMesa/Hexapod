@@ -19,7 +19,7 @@ For the Arduino board, the only Arduino that had enough pins for what I wanted t
 ### Custom Part Manufacturing
 I plan to use Elegoo Plan PLUS to print out all the custom parts of the hexapod. This filament is good because it is inexpensive for how well it functions. Elegoo Pla Plus gives me the required strength I need for these parts while also allowing me to use a lower than normal infill percentage (15 %). I also plan to use 2 seperate colors (black and red) to not only distinguish between parts, but to also have a cool black spiderman color scheme.
 
-![image](https://github.com/user-attachments/assets/dbf7d5cd-8db1-4142-a426-dbdc6fb76877)
+![Screenshot 2025-07-01 085407](https://github.com/user-attachments/assets/d5bc7e00-d8e9-459e-b431-4f22f66796c9)
 
 # Component Purchase List
 
